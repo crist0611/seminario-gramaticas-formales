@@ -69,7 +69,12 @@ Para cumplir con la regularidad en este seminario, es necesario realizar una ser
             <li>Jerarquía de lenguajes formales. Gramáticas, autómatas y lenguajes. Equivalencia débil y equivalencia fuerte; teoría de la complejidad.</li>
         </ul>
     </td>
-    <td></td>
+    <td>
+    <ul>
+    	<li><a href="./Clase-03/handout.pdf">Apunte sobre jerarquía de Chomsky</a></li>
+    	<li><a href="./Clase-03/Clase-03-jupyter.md">Notebook librería re</a></li>
+    </ul>
+    </td>
   </tr>
   <tr>
     <td><a href="./Clase-04/index.md">04</a></td>
@@ -77,12 +82,14 @@ Para cumplir con la regularidad en este seminario, es necesario realizar una ser
     <td>
       <ul>
         <li>Gramáticas Independientes de contexto. Definición; axiomas de dominancia y de precedencia. Algunas limitaciones.</li>
-        <li>Parsers: RecursiveDescentParser (NLTK), Shift-ReduceParser (NLTK), ChartParser (NLTK). Freeling.</li>
+        <li>Parsers: RecursiveDescentParser (NLTK), Shift-ReduceParser (NLTK), ChartParser (NLTK).</li>
       </ul>
     </td>
     <td>
       <ul>
-        <li><a href="./Clase-04/Clase-04-jupyter.md">Visualización de Notebook</a></li>
+      	<li><a href="./Clase-04/handout.pdf">Apunte sobre CFG</a></li>
+        <li><a href="./Clase-04/Clase-04-jupyter.md">Visualización de Notebook</a></li>	
+        <li><a href="./TPs/tp2.md">TP #2</a></li>
       </ul>
     </td>
   </tr>
@@ -95,7 +102,11 @@ Para cumplir con la regularidad en este seminario, es necesario realizar una ser
         <li>El declive de GPSG: insuficiencia del poder restrictivo de las gramáticas independientes de contexto, complejidad computacional de GPSG.</li>
       </ul>
     </td>
-    <td></td>
+    <td>
+      <ul>
+    <li><a href="./Clase-05/handout.pdf">Apunte sobre GPSG</a></li>
+      </ul>
+    </td>
   </tr>
   <tr>
     <td><a href="./Clase-06/index.md">06</a></td>
