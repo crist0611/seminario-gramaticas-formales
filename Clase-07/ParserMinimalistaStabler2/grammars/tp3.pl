@@ -5,13 +5,16 @@
 
 % C Category 
 
-[]::[='T','C'].                  
+[]::[='T','C'].   
+[]::[=>'T',+focus,'C'].               
 
 % T category
 
 %[tiempo]::[=>'Pas',+case,'T'].
 
 ['-aron']::[=>v,+nom,'T'].
+%['-aron']::[=>v,+nom,-focus,'T'].
+['-an']::[=>v,+nom,'T'].
 
 % v chiquito
 
@@ -21,7 +24,7 @@
 % Verbos
 
 % Intransitivos
-
+[nad]::['V']. 
 
 % Transitivos
 
@@ -31,10 +34,12 @@
 % Determinantes
 
 [las]::[='N','D',-nom].     
-[una]::[='N','D',-ac].     
+[una]::[='N','D',-ac].  
+[una]::[='N','D',-ac,-focus].      
 
 % Nombres Comunes
 [liebres]::['N'].
 [madriguera]::['N'].
+[tortugas]::['N'].
 
 startCategory('C').
