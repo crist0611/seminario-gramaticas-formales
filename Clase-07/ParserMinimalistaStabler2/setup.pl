@@ -59,8 +59,8 @@
 % %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 % GRAMMARS REQUIRING HEAD MOVEMENT (mghapx+lhapx)
-:- ['grammars/spanish1']. % 
-
+% :- ['grammars/spanish1'].
+:- ['grammars/tp3']. 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Oraciones para probar (seleecionar de la gramática que corresponda)
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
