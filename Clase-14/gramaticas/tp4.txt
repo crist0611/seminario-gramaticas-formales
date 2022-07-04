@@ -1,0 +1,18 @@
+:- S, NP, NC
+		
+el => NP[masc]/NP[masc]
+la => NP[fem]/NP[fem]
+la => NP[fem]/NC[fem]
+
+leon => NP[masc]
+leona => NP[fem]
+
+cansado => NP[masc]
+cansada => NP[fem]
+
+corre => S\NP
+come => (S\NP)/NP
+esta => (S\NP[masc])/NP[masc]
+esta => (S\NP[fem])/NP[fem]
+
+carne => NC[fem]
